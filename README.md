@@ -6,7 +6,7 @@
 
 GoFood is a dynamic, full-stack food delivery web application. This repository contains the **React.js frontend**, which provides a seamless, responsive user interface for browsing menus, managing a shopping cart, and handling user authentication.
 
-**[🚀 View Live Demo Here](https://YOUR-RENDER-URL-HERE.onrender.com)** *(Note: The backend is hosted on a free tier and may take 50 seconds to wake up on initial load).*
+**[🚀 View Live Demo Here](https://gofood-backend-1-jdc6.onrender.com)** *(Note: The backend is hosted on a free tier and may take 50 seconds to wake up on initial load).*
 
 ---
 
