@@ -157,11 +157,11 @@ function AuthScreen({ isLogin }) {
       : { name: credentials.name, email: credentials.email, password: credentials.password };
 
     try {
-      const response = await fetch(`${process.env.https://gofood-backend-1-jdc6.onrender.com}/api/auth/${endpoint}`, { ... }), {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(bodyData)
-      });
+      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/api/auth/${endpoint}`, {
+       method: 'POST',
+       headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(bodyData)
+    });
       const json = await response.json();
       if (json.success) {
         localStorage.setItem('authToken', json.authToken);
